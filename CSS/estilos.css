@@ -91,3 +91,10 @@ button:hover{
     background-color: red;
     cursor: pointer;
 }
+
+footer{
+    background: #004080;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
