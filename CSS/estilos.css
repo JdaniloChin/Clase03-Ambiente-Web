@@ -3,6 +3,17 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex; 
+    flex-direction: column; 
+}
+
 h1{
     text-align: center;
     color: darkblue;
@@ -15,6 +26,7 @@ h1{
     padding: 20px;
     border-radius: 10px;
     background-color: #f0f8ff;
+    flex-grow: 1;
 }
 
 input:not([type="radio"]):not([type="checkbox"]){
@@ -97,4 +109,5 @@ footer{
     color:white;
     text-align: center;
     padding: 10px;
+    flex-shrink: 0; 
 }
